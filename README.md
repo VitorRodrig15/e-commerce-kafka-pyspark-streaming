@@ -18,13 +18,21 @@ Este projeto foi desenvolvido como um ambiente prático de treinamento e exibiç
 
 ---
 
-## 📽️ Demonstração em Vídeo
+## 📽️ Demonstração
 
-Assista ao vídeo demonstrativo do projeto em funcionamento, mostrando a execução sincronizada do Broker Kafka, do Producer gerando vendas aleatórias e do Consumer PySpark processando os aggregations ao vivo:
+o Gif demonstrativo do projeto em funcionamento, mostrando a execução sincronizada do Broker Kafka, do Producer gerando vendas aleatórias e do Consumer PySpark processando os aggregations ao vivo:
 
-[![Demonstração do Funcionamento](https://img.shields.io/badge/Vídeo-Funcionamento__ecommerce-blue?style=for-the-badge&logo=youtube)](./Funcionamento_ecommerce.mp4)
+![Demonstração do Funcionamento](./Funcionamento_ecommerce.gif)
 
-> *Nota: O arquivo de vídeo `Funcionamento_ecommerce.mp4` encontra-se anexo na raiz deste repositório.*
+> *Nota: O arquivo do Gif `Funcionamento_ecommerce.gif` encontra-se anexo na raiz deste repositório.*
+
+![Producer.png](Producer.png)
+<br>
+*Producer gerando os dados com o Faker, para mandar mensagens para o broker, e para ele separar para seu consumidor*
+
+![Consumer.png](Consumer.png)
+<br>
+*Consumer Mostrando o processo finalizado*
 
 ---
 
@@ -129,7 +137,7 @@ pip install kafka-python faker pyspark==3.5.1
 ```
 
 3. Iniciar o Producer (Simulador de Vendas)
-Em um terminal dedicado, ou dividido igual ao vídeo:
+Em um terminal dedicado, ou dividido igual ao GIF:
 ```
 python producer.py
 ```
@@ -153,7 +161,8 @@ python consumer_pyspark.py
 📊 Exemplo da Saída do Processamento
 A cada lote de mensagens processado pelo Spark, a tabela de agregação atualizada é impressa diretamente no terminal:
 
-- ![Consumer.png](Consumer.png)
+![Consumer.png](Consumer.png)
+<br>
 *O Consumer extraído os dados via produção, para fazer as métricas*
 
 🛠️ Tecnologias Utilizadas
