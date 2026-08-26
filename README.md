@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como um ambiente prático de treinamento e exibiç
 
 Assista ao vídeo demonstrativo do projeto em funcionamento, mostrando a execução sincronizada do Broker Kafka, do Producer gerando vendas aleatórias e do Consumer PySpark processando os aggregations ao vivo:
 
-[![Demonstração do Funcionamento](https://img.shields.io/badge/Vídeo-Funcionamento__ecomerce-blue?style=for-the-badge&logo=youtube)](./Funcionamento_ecommerce.mp4)
+[![Demonstração do Funcionamento](https://img.shields.io/badge/Vídeo-Funcionamento__ecommerce-blue?style=for-the-badge&logo=youtube)](./Funcionamento_ecommerce.mp4)
 
 > *Nota: O arquivo de vídeo `Funcionamento_ecommerce.mp4` encontra-se anexo na raiz deste repositório.*
 
