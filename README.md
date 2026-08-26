@@ -18,24 +18,6 @@ Este projeto foi desenvolvido como um ambiente prático de treinamento e exibiç
 
 ---
 
-## 📽️ Demonstração
-
-o Gif demonstrativo do projeto em funcionamento, mostrando a execução sincronizada do Broker Kafka, do Producer gerando vendas aleatórias e do Consumer PySpark processando os aggregations ao vivo:
-
-![Demonstração do Funcionamento](./Funcionamento_ecommerce.gif)
-
-> *Nota: O arquivo do Gif `Funcionamento_ecommerce.gif` encontra-se anexo na raiz deste repositório.*
-
-![Producer.png](Producer.png)
-<br>
-*Producer gerando os dados com o Faker, para mandar mensagens para o broker, e para ele separar para seu consumidor*
-
-![Consumer.png](Consumer.png)
-<br>
-*Consumer Mostrando o processo finalizado*
-
----
-
 ## 🎯 Intuito e Objetivos do Projeto
 
 - **Simulação de Alta Volumetria:** Simular transações reais de e-commerce com clientes fictícios, itens variados, preços unitários, subtotais e carimbos de data/hora.
@@ -95,6 +77,25 @@ graph LR
     E -->|"3. Output Mode Complete"| F
 
 ```
+
+---
+
+## 📽️ Demonstração
+
+o Gif demonstrativo do projeto em funcionamento, mostrando a execução sincronizada do Broker Kafka, do Producer gerando vendas aleatórias e do Consumer PySpark processando os aggregations ao vivo:
+
+![Demonstração do Funcionamento](./Funcionamento_ecommerce.gif)
+
+> *Nota: O arquivo do Gif `Funcionamento_ecommerce.gif` encontra-se anexo na raiz deste repositório.*
+
+![Producer.png](Producer.png)
+<br>
+*Producer gerando os dados com o Faker, para mandar mensagens para o broker, e para ele separar para seu consumidor*
+
+![Consumer.png](Consumer.png)
+<br>
+*Consumer Mostrando o processo finalizado*
+
 ---
 
 
